@@ -1,23 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const artistData = [
-        { name: 'Jão', image: 'img/jao.jpg' },
-        { name: 'AnaVitoria', image: 'img/anavitoria.jpg' },
-        { name: 'Lagum', image: 'img/lagum.jpg' },
-        { name: 'Rubel', image: 'img/rubel.jpg' },
-        { name: 'Marina Senna', image: 'img/marinasena.jpg' },
-        { name: 'Charlie Brown Jr', image: 'img/charliebrow.jpg' },
-        { name: 'Tribalistas', image: 'img/tribalistas.jpg' }
+        { name: 'Jão', image: '.img/jao.jpg' },
+        { name: 'AnaVitoria', image: '.img/anavitoria.jpg' },
+        { name: 'Lagum', image: '.img/lagum.jpg' },
+        { name: 'Rubel', image: '.img/rubel.jpg' },
+        { name: 'Marina Senna', image: '.img/marinasena.jpg' },
+        { name: 'Charlie Brown Jr', image: '.img/charliebrow.jpg' },
+        { name: 'Tribalistas', image: '.img/tribalistas.jpg' }
     ];
 
     const albumData = [
-        { name: 'Super', image: 'img/super.jpg', artist: 'Jão' },
-        { name: 'Supernova', image: 'img/supernova.jpg', artist: 'Jão' },
-        { name: 'As Cores, as Curvas e as Dores do Mundo', image: 'img/ascoresasdores.jpg', artist: 'Lagum' },
-        { name: 'Claraboia', image: 'img/claraboia.jpg', artist: 'AnaVitoria' },
-        { name: 'Jorge Vercilo ao vivo', image: 'img/jorgevercilo.jpg', artist: 'Jorge Vercilo' },
-        { name: 'Do Cóccix até o Pescoço', image: 'img/elsasoares.jpg', artist: 'Elsa Soares' },
-        { name: 'Alucinação', image: 'img/latinoamericano.jpg', artist: 'Belchior' }
+        { name: 'Super', image: '.img/super.jpg', artist: 'Jão' },
+        { name: 'Supernova', image: '.img/supernova.jpg', artist: 'Jão' },
+        { name: 'As Cores, as Curvas e as Dores do Mundo', image: '.img/ascoresasdores.jpg', artist: 'Lagum' },
+        { name: 'Claraboia', image: '.img/claraboia.jpg', artist: 'AnaVitoria' },
+        { name: 'Jorge Vercilo ao vivo', image: '.img/jorgevercilo.jpg', artist: 'Jorge Vercilo' },
+        { name: 'Do Cóccix até o Pescoço', image: '.img/elsasoares.jpg', artist: 'Elsa Soares' },
+        { name: 'Alucinação', image: '.img/latinoamericano.jpg', artist: 'Belchior' }
     ];
 
     const artistGrid = document.querySelector('.artistas-grid');
